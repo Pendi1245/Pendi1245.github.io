@@ -1,509 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Pendi</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  <head>
+    <meta charset="utf-8">
+    <title>Pendi</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-  <!-- Favicons -->
-  <link href="img/log.png" rel="icon">
-  <link href="img/log.png" rel="apple-touch-icon">
+    <!-- Favicons -->
+    <link href="img/log.png" rel="icon">
+    <link href="img/log.png" rel="apple-touch-icon">
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/vars.css" rel="stylesheet">
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/vars.css" rel="stylesheet">
 
-</head>
-
-<body id="page-top">
-
-  <!--/ Nav Star /-->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">
-        <img class="logo2" src="img/logo1.png" />
-      </a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#beranda">Beranda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#produk">Produk</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#jasa">Jasa</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#tentangkami">Tentang Kami</a>
-          </li>
-        </ul>
-      </div>
-      <!-- <div class="frame-1171275061">
-        <div class="button-md-sec">
-          <div class="frame-1171275152">
-            <a class="btn-text"  href="https://wa.me/qr/2AU2F2ZOAMVIO1">Hubungi Kami</href></a>
-            <svg
-              class="component-149"
-              width="18"
-              height="18"
-              viewBox="0 0 18 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+  </head>
+  <body id="page-top">
+    <!--/ Nav Star /-->
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll" href="#page-top">
+          <img class="logo2" src="img/logo1.png" />
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+          aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll active" href="#beranda">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#produk">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#jasa">Jasa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#tentangkami">Tentang Kami</a>
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="frame-1171275061">
+          <div class="button-md-sec">
+            <div class="frame-1171275152">
+              <a class="btn-text"  href="https://wa.me/qr/2AU2F2ZOAMVIO1">Hubungi Kami</href></a>
+              <svg
+                class="component-149"
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.7587 4.21428C13.1398 3.58919 12.4027 3.09356 11.5903 2.75632C10.7779 2.41908 9.90652 2.24698 9.02692 2.25004C5.34143 2.25004 2.33769 5.25378 2.33769 8.93927C2.33769 10.1205 2.64819 11.268 3.22869 12.2805L2.28369 15.75L5.82743 14.8185C6.80618 15.3518 7.90642 15.6353 9.02692 15.6353C12.7124 15.6353 15.7162 12.6315 15.7162 8.94602C15.7162 7.15728 15.0209 5.47653 13.7587 4.21428ZM9.02692 14.5013C8.02792 14.5013 7.04918 14.2313 6.19193 13.725L5.98943 13.6035L3.88344 14.157L4.44369 12.105L4.30869 11.8958C3.75367 11.0095 3.45896 9.98501 3.45819 8.93927C3.45819 5.87478 5.95568 3.37729 9.02017 3.37729C10.5052 3.37729 11.9024 3.95779 12.9487 5.01078C13.4667 5.52646 13.8773 6.13983 14.1565 6.81534C14.4357 7.49085 14.5781 8.21507 14.5754 8.94602C14.5889 12.0105 12.0914 14.5013 9.02692 14.5013ZM12.0779 10.3433C11.9092 10.2623 11.0857 9.85727 10.9372 9.79652C10.7819 9.74252 10.6739 9.71552 10.5592 9.87752C10.4444 10.0463 10.1272 10.4243 10.0327 10.5323C9.93817 10.647 9.83692 10.6605 9.66817 10.5728C9.49942 10.4918 8.95942 10.3095 8.32492 9.74252C7.82542 9.29702 7.49468 8.75027 7.39343 8.58152C7.29893 8.41277 7.37993 8.32502 7.46768 8.23727C7.54193 8.16302 7.63643 8.04152 7.71743 7.94702C7.79843 7.85252 7.83217 7.77827 7.88617 7.67027C7.94017 7.55552 7.91317 7.46102 7.87267 7.38003C7.83217 7.29903 7.49468 6.47553 7.35968 6.13803C7.22468 5.81403 7.08293 5.85453 6.98168 5.84778H6.65768C6.54293 5.84778 6.36743 5.88828 6.21218 6.05703C6.06368 6.22578 5.63168 6.63078 5.63168 7.45427C5.63168 8.27777 6.23243 9.07427 6.31343 9.18227C6.39443 9.29702 7.49468 10.9845 9.16867 11.7068C9.56692 11.8823 9.87742 11.9835 10.1204 12.0578C10.5187 12.186 10.8832 12.1658 11.1734 12.1253C11.4974 12.078 12.1657 11.7203 12.3007 11.3288C12.4424 10.9373 12.4424 10.6065 12.3952 10.5323C12.3479 10.458 12.2467 10.4243 12.0779 10.3433Z"
+                  fill="#FFFBFE"
+                />
+              </svg>
+            </div>
+          </div>
+        </div> -->
+        <div class="button">
+          Hubungi Kami
+          <a href="https://wa.me/qr/2AU2F2ZOAMVIO1">
+            <span class="link"></span>
+          </a>
+          <svg
+            class="component-149"
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 d="M13.7587 4.21428C13.1398 3.58919 12.4027 3.09356 11.5903 2.75632C10.7779 2.41908 9.90652 2.24698 9.02692 2.25004C5.34143 2.25004 2.33769 5.25378 2.33769 8.93927C2.33769 10.1205 2.64819 11.268 3.22869 12.2805L2.28369 15.75L5.82743 14.8185C6.80618 15.3518 7.90642 15.6353 9.02692 15.6353C12.7124 15.6353 15.7162 12.6315 15.7162 8.94602C15.7162 7.15728 15.0209 5.47653 13.7587 4.21428ZM9.02692 14.5013C8.02792 14.5013 7.04918 14.2313 6.19193 13.725L5.98943 13.6035L3.88344 14.157L4.44369 12.105L4.30869 11.8958C3.75367 11.0095 3.45896 9.98501 3.45819 8.93927C3.45819 5.87478 5.95568 3.37729 9.02017 3.37729C10.5052 3.37729 11.9024 3.95779 12.9487 5.01078C13.4667 5.52646 13.8773 6.13983 14.1565 6.81534C14.4357 7.49085 14.5781 8.21507 14.5754 8.94602C14.5889 12.0105 12.0914 14.5013 9.02692 14.5013ZM12.0779 10.3433C11.9092 10.2623 11.0857 9.85727 10.9372 9.79652C10.7819 9.74252 10.6739 9.71552 10.5592 9.87752C10.4444 10.0463 10.1272 10.4243 10.0327 10.5323C9.93817 10.647 9.83692 10.6605 9.66817 10.5728C9.49942 10.4918 8.95942 10.3095 8.32492 9.74252C7.82542 9.29702 7.49468 8.75027 7.39343 8.58152C7.29893 8.41277 7.37993 8.32502 7.46768 8.23727C7.54193 8.16302 7.63643 8.04152 7.71743 7.94702C7.79843 7.85252 7.83217 7.77827 7.88617 7.67027C7.94017 7.55552 7.91317 7.46102 7.87267 7.38003C7.83217 7.29903 7.49468 6.47553 7.35968 6.13803C7.22468 5.81403 7.08293 5.85453 6.98168 5.84778H6.65768C6.54293 5.84778 6.36743 5.88828 6.21218 6.05703C6.06368 6.22578 5.63168 6.63078 5.63168 7.45427C5.63168 8.27777 6.23243 9.07427 6.31343 9.18227C6.39443 9.29702 7.49468 10.9845 9.16867 11.7068C9.56692 11.8823 9.87742 11.9835 10.1204 12.0578C10.5187 12.186 10.8832 12.1658 11.1734 12.1253C11.4974 12.078 12.1657 11.7203 12.3007 11.3288C12.4424 10.9373 12.4424 10.6065 12.3952 10.5323C12.3479 10.458 12.2467 10.4243 12.0779 10.3433Z"
                 fill="#FFFBFE"
               />
-            </svg>
-          </div>
+          </svg>
         </div>
-      </div> -->
-      <div class="button">
-        Hubungi Kami
-        <a href="https://wa.me/qr/2AU2F2ZOAMVIO1">
-          <span class="link"></span>
-        </a>
-        <svg
-          class="component-149"
-          width="18"
-          height="18"
-          viewBox="0 0 18 18"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M13.7587 4.21428C13.1398 3.58919 12.4027 3.09356 11.5903 2.75632C10.7779 2.41908 9.90652 2.24698 9.02692 2.25004C5.34143 2.25004 2.33769 5.25378 2.33769 8.93927C2.33769 10.1205 2.64819 11.268 3.22869 12.2805L2.28369 15.75L5.82743 14.8185C6.80618 15.3518 7.90642 15.6353 9.02692 15.6353C12.7124 15.6353 15.7162 12.6315 15.7162 8.94602C15.7162 7.15728 15.0209 5.47653 13.7587 4.21428ZM9.02692 14.5013C8.02792 14.5013 7.04918 14.2313 6.19193 13.725L5.98943 13.6035L3.88344 14.157L4.44369 12.105L4.30869 11.8958C3.75367 11.0095 3.45896 9.98501 3.45819 8.93927C3.45819 5.87478 5.95568 3.37729 9.02017 3.37729C10.5052 3.37729 11.9024 3.95779 12.9487 5.01078C13.4667 5.52646 13.8773 6.13983 14.1565 6.81534C14.4357 7.49085 14.5781 8.21507 14.5754 8.94602C14.5889 12.0105 12.0914 14.5013 9.02692 14.5013ZM12.0779 10.3433C11.9092 10.2623 11.0857 9.85727 10.9372 9.79652C10.7819 9.74252 10.6739 9.71552 10.5592 9.87752C10.4444 10.0463 10.1272 10.4243 10.0327 10.5323C9.93817 10.647 9.83692 10.6605 9.66817 10.5728C9.49942 10.4918 8.95942 10.3095 8.32492 9.74252C7.82542 9.29702 7.49468 8.75027 7.39343 8.58152C7.29893 8.41277 7.37993 8.32502 7.46768 8.23727C7.54193 8.16302 7.63643 8.04152 7.71743 7.94702C7.79843 7.85252 7.83217 7.77827 7.88617 7.67027C7.94017 7.55552 7.91317 7.46102 7.87267 7.38003C7.83217 7.29903 7.49468 6.47553 7.35968 6.13803C7.22468 5.81403 7.08293 5.85453 6.98168 5.84778H6.65768C6.54293 5.84778 6.36743 5.88828 6.21218 6.05703C6.06368 6.22578 5.63168 6.63078 5.63168 7.45427C5.63168 8.27777 6.23243 9.07427 6.31343 9.18227C6.39443 9.29702 7.49468 10.9845 9.16867 11.7068C9.56692 11.8823 9.87742 11.9835 10.1204 12.0578C10.5187 12.186 10.8832 12.1658 11.1734 12.1253C11.4974 12.078 12.1657 11.7203 12.3007 11.3288C12.4424 10.9373 12.4424 10.6065 12.3952 10.5323C12.3479 10.458 12.2467 10.4243 12.0779 10.3433Z"
-              fill="#FFFBFE"
-            />
-        </svg>
       </div>
-    </div>
-  </nav>
-  <!--/ Nav End /-->
+    </nav>
+    <!--/ Nav End /-->
 
-  <!--/ Beranda Start /-->
-  <div id="beranda" class="intro route bg-image" style="background-image: url(img/banner0.png)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">
-            Solusi Cerdas AI dan IoT untuk Kesehatan yang Lebih Baik
-          </h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Maksimalkan kesehatan Anda dengan perangkat medis bertenaga AI
-            dan layanan IoT kami, yang memberikan perawatan cermat demi masa
-            depan yang lebih baik.</span><strong class="text-slider"></strong></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/ Beranda End /-->
-
-   <!--/ Tentang Kami Start/-->
-   <section id="tentangkami" class="portfolio-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              PT. PENDI HIJAU BERKAH
-            </h3>
-            <p class="subtitle-a">
-              Pendi Hijau Berkah adalah perusahaan yang menyediakan inovasi
-                dalam industri alat kesehatan berbasis AI (kecerdasan buatan)
-                dan IoT (Internet of Things). Tujuan kami adalah untuk
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="informasi">
-        <div class="frame-1171275188">
-          <div class="card-tentang-kami">
-            <div class="card">
-              <div class="circle-sec">
-                <svg
-                  class="component-13"
-                  width="40"
-                  height="40"
-                  viewBox="0 0 40 40"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M31.25 12.5H28.75V9.99999C28.7489 8.98487 28.4388 7.99413 27.8609 7.15951C27.2831 6.32489 26.4649 5.68592 25.5151 5.32755C24.5654 4.96918 23.529 4.9084 22.5439 5.15327C21.5587 5.39815 20.6714 5.93708 20 6.69843C19.3601 5.97315 18.5236 5.44904 17.5918 5.18962C16.66 4.93019 15.673 4.94659 14.7503 5.23683C13.8277 5.52707 13.009 6.07869 12.3936 6.82483C11.7781 7.57097 11.3923 8.47961 11.2828 9.44062C10.5234 8.99446 9.65964 8.75681 8.77889 8.75172C7.89814 8.74663 7.03167 8.97428 6.26717 9.41164C5.50267 9.84899 4.86726 10.4805 4.42524 11.2424C3.98323 12.0042 3.75029 12.8692 3.75 13.75V20C3.75 24.3098 5.46205 28.443 8.50951 31.4905C11.557 34.5379 15.6902 36.25 20 36.25C24.3098 36.25 28.443 34.5379 31.4905 31.4905C34.538 28.443 36.25 24.3098 36.25 20V17.5C36.25 16.1739 35.7232 14.9021 34.7855 13.9645C33.8479 13.0268 32.5761 12.5 31.25 12.5ZM23.75 7.49999C24.413 7.49999 25.0489 7.76339 25.5178 8.23223C25.9866 8.70107 26.25 9.33695 26.25 9.99999V12.5H21.25V9.99999C21.25 9.33695 21.5134 8.70107 21.9822 8.23223C22.4511 7.76339 23.087 7.49999 23.75 7.49999ZM13.75 9.99999C13.75 9.33695 14.0134 8.70107 14.4822 8.23223C14.9511 7.76339 15.587 7.49999 16.25 7.49999C16.913 7.49999 17.5489 7.76339 18.0178 8.23223C18.4866 8.70107 18.75 9.33695 18.75 9.99999V16.25C18.75 16.913 18.4866 17.5489 18.0178 18.0178C17.5489 18.4866 16.913 18.75 16.25 18.75C15.587 18.75 14.9511 18.4866 14.4822 18.0178C14.0134 17.5489 13.75 16.913 13.75 16.25V9.99999ZM6.25 13.75C6.25 13.087 6.51339 12.4511 6.98223 11.9822C7.45107 11.5134 8.08696 11.25 8.75 11.25C9.41304 11.25 10.0489 11.5134 10.5178 11.9822C10.9866 12.4511 11.25 13.087 11.25 13.75V16.25C11.25 16.913 10.9866 17.5489 10.5178 18.0178C10.0489 18.4866 9.41304 18.75 8.75 18.75C8.08696 18.75 7.45107 18.4866 6.98223 18.0178C6.51339 17.5489 6.25 16.913 6.25 16.25V13.75ZM33.75 20C33.7499 23.5959 32.3412 27.0488 29.8257 29.6184C27.3102 32.188 23.8882 33.67 20.293 33.7466C16.6979 33.8233 13.2158 32.4885 10.5931 30.0284C7.97041 27.5683 6.4158 24.1786 6.2625 20.5859C7.26165 21.1606 8.42894 21.3715 9.56602 21.183C10.7031 20.9944 11.7398 20.4179 12.5 19.5516C13.3615 20.5332 14.5736 21.1378 15.8759 21.2357C17.1783 21.3336 18.4671 20.9168 19.4656 20.075C19.9153 20.8202 20.5506 21.4361 21.3094 21.8625C20.5051 22.5651 19.8606 23.4317 19.4191 24.4041C18.9777 25.3765 18.7495 26.4321 18.75 27.5C18.75 27.8315 18.8817 28.1495 19.1161 28.3839C19.3505 28.6183 19.6685 28.75 20 28.75C20.3315 28.75 20.6495 28.6183 20.8839 28.3839C21.1183 28.1495 21.25 27.8315 21.25 27.5C21.25 26.1739 21.7768 24.9021 22.7145 23.9645C23.6521 23.0268 24.9239 22.5 26.25 22.5C26.5815 22.5 26.8995 22.3683 27.1339 22.1339C27.3683 21.8995 27.5 21.5815 27.5 21.25C27.5 20.9185 27.3683 20.6005 27.1339 20.3661C26.8995 20.1317 26.5815 20 26.25 20H23.75C23.087 20 22.4511 19.7366 21.9822 19.2678C21.5134 18.7989 21.25 18.163 21.25 17.5V15H31.25C31.913 15 32.5489 15.2634 33.0178 15.7322C33.4866 16.2011 33.75 16.837 33.75 17.5V20Z"
-                    fill="#FFFBFE"
-                  />
-                </svg>
-              </div>
-              <div class="h-3-feature-title-sec">
-                Memberdayakan Pasien
-              </div>
-              <div class="fixed-width-fixed-height-sec"></div>
-              <div class="paragraph-feature-description-sec">
-                Kami memahami bahwa masa depan perawatan kesehatan
-                memerlukan solusi yang cerdas dan terhubung secara
-                digital.
-              </div>
-            </div>
-          </div>
-          <div class="card-tentang-kami">
-            <div class="card">
-              <div class="circle-sec">
-                <svg
-                  class="component-132"
-                  width="40"
-                  height="40"
-                  viewBox="0 0 40 40"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M20.0002 19.3333L24.1668 23.5C24.4724 23.8055 24.6252 24.1944 24.6252 24.6666C24.6252 25.1388 24.4724 25.5277 24.1668 25.8333C23.8613 26.1388 23.4724 26.2916 23.0002 26.2916C22.5279 26.2916 22.1391 26.1388 21.8335 25.8333L17.1668 21.1666C17.0002 21 16.8752 20.8127 16.7918 20.605C16.7085 20.3972 16.6668 20.1816 16.6668 19.9583V13.3333C16.6668 12.8611 16.8268 12.4655 17.1468 12.1466C17.4668 11.8277 17.8624 11.6677 18.3335 11.6666C18.8057 11.6666 19.2018 11.8266 19.5218 12.1466C19.8418 12.4666 20.0013 12.8622 20.0002 13.3333V19.3333ZM30.0002 9.99996H26.6668C26.1946 9.99996 25.7991 9.84051 25.4802 9.52163C25.1613 9.20274 25.0013 8.80663 25.0002 8.33329C25.0002 7.86107 25.1602 7.46552 25.4802 7.14663C25.8002 6.82774 26.1957 6.66774 26.6668 6.66663H30.0002V3.33329C30.0002 2.86107 30.1602 2.46551 30.4802 2.14663C30.8002 1.82774 31.1957 1.66774 31.6668 1.66663C32.1391 1.66663 32.5352 1.82663 32.8552 2.14663C33.1752 2.46663 33.3346 2.86218 33.3335 3.33329V6.66663H36.6668C37.1391 6.66663 37.5352 6.82663 37.8552 7.14663C38.1752 7.46663 38.3346 7.86218 38.3335 8.33329C38.3335 8.80551 38.1735 9.20163 37.8535 9.52163C37.5335 9.84163 37.1379 10.0011 36.6668 9.99996H33.3335V13.3333C33.3335 13.8055 33.1735 14.2016 32.8535 14.5216C32.5335 14.8416 32.1379 15.0011 31.6668 15C31.1946 15 30.7991 14.84 30.4802 14.52C30.1613 14.2 30.0013 13.8044 30.0002 13.3333V9.99996ZM18.3335 35C16.2502 35 14.2991 34.6111 12.4802 33.8333C10.6613 33.0555 9.07072 31.9861 7.7085 30.625C6.34739 29.2638 5.27794 27.6733 4.50016 25.8533C3.72239 24.0333 3.3335 22.0822 3.3335 20C3.3335 17.9166 3.72239 15.9655 4.50016 14.1466C5.27794 12.3277 6.34739 10.7372 7.7085 9.37496C9.06961 8.01385 10.6602 6.9444 12.4802 6.16663C14.3002 5.38885 16.2513 4.99996 18.3335 4.99996C18.6391 4.99996 18.9241 5.00718 19.1885 5.02163C19.4529 5.03607 19.7374 5.07051 20.0418 5.12496C20.5141 5.12496 20.9102 5.28496 21.2302 5.60496C21.5502 5.92496 21.7096 6.32051 21.7085 6.79163C21.7085 7.26385 21.5485 7.65996 21.2285 7.97996C20.9085 8.29996 20.5129 8.4594 20.0418 8.45829C19.7363 8.45829 19.4513 8.43718 19.1868 8.39496C18.9224 8.35274 18.6379 8.33218 18.3335 8.33329C15.0557 8.33329 12.2918 9.45829 10.0418 11.7083C7.79183 13.9583 6.66683 16.7222 6.66683 20C6.66683 23.2777 7.79183 26.0416 10.0418 28.2916C12.2918 30.5416 15.0557 31.6666 18.3335 31.6666C21.6113 31.6666 24.3752 30.5416 26.6252 28.2916C28.8752 26.0416 30.0002 23.2777 30.0002 20C30.0002 19.5277 30.1602 19.1322 30.4802 18.8133C30.8002 18.4944 31.1957 18.3344 31.6668 18.3333C32.1391 18.3333 32.5352 18.4933 32.8552 18.8133C33.1752 19.1333 33.3346 19.5288 33.3335 20C33.3335 22.0833 32.9446 24.035 32.1668 25.855C31.3891 27.675 30.3196 29.265 28.9585 30.625C27.5974 31.9861 26.0068 33.0555 24.1868 33.8333C22.3668 34.6111 20.4157 35 18.3335 35Z"
-                    fill="#FFFBFE"
-                  />
-                </svg>
-              </div>
-              <div class="h-3-feature-title-sec">Efisiensi Waktu</div>
-              <div class="fixed-width-fixed-height-sec"></div>
-              <div class="paragraph-feature-description-sec">
-                Melalui integrasi teknologi AI dan IoT, kami bertujuan
-                untuk menghadirkan perangkat kesehatan yang dapat cepat
-                diakses.
-              </div>
-            </div>
-          </div>
-          <div class="card-tentang-kami">
-            <div class="card">
-              <div class="circle-sec">
-                <svg
-                  class="component-133"
-                  width="40"
-                  height="40"
-                  viewBox="0 0 40 40"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M21.6666 4.99996C28.1666 4.99996 33.3333 10.1666 33.3333 16.6666C33.3333 21.3333 30.6666 25.3333 26.6666 27.1666V35H14.9999V30H13.3333C11.4999 30 9.99994 28.5 9.99994 26.6666V21.6666H7.49994C6.83328 21.6666 6.33328 20.8333 6.83328 20.3333L9.99994 16.1666C10.3333 9.83329 15.3333 4.99996 21.6666 4.99996ZM21.6666 1.66663C13.9999 1.66663 7.66661 7.33329 6.83328 14.8333L4.16661 18.3333C3.16661 19.6666 3.16661 21.3333 3.83328 22.6666C4.49994 23.8333 5.49994 24.6666 6.66661 24.8333V26.6666C6.66661 29.8333 8.83328 32.3333 11.6666 33.1666V38.3333H29.9999V29.1666C34.1666 26.3333 36.6666 21.8333 36.6666 16.6666C36.6666 8.33329 29.9999 1.66663 21.6666 1.66663ZM23.3333 23.3333H19.9999V21.6666H23.3333V23.3333ZM25.9999 15.8333C25.4999 16.5 24.9999 17.1666 24.1666 17.6666V20H19.1666V17.6666C16.8333 16.3333 15.9999 13.1666 17.3333 10.8333C18.6666 8.49996 21.8333 7.66663 24.1666 8.99996C26.4999 10.3333 27.3333 13.5 25.9999 15.8333Z"
-                    fill="#FFFBFE"
-                  />
-                </svg>
-              </div>
-              <div class="h-3-feature-title-sec">Pemahaman Mendalam</div>
-              <div class="fixed-width-fixed-height-sec"></div>
-              <div class="paragraph-feature-description-sec">
-                Kami memahami bahwa masa depan perawatan kesehatan
-                memerlukan solusi yang cerdas dan terhubung secara
-                digital.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="frame-1171275187">
-          <div class="hedading">Partner Kerja</div>
-          <div class="frame-1171275183">
-            <div class="frame-1171275176">
-              <img class="image-4" src="img/image-40.png" />
-            </div>
-            <div class="frame-1171275177">
-              <div class="frame-1171275174">
-                <img class="image-3" src="img/image-30.png" />
-              </div>
-            </div>
+    <!--/ Beranda Start /-->
+    <div id="beranda" class="intro route bg-image" style="background-image: url(img/banner0.png)">
+      <div class="overlay-itro"></div>
+      <div class="intro-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <!--<p class="display-6 color-d">Hello, world!</p>-->
+            <h1 class="intro-title mb-4">
+              Solusi Cerdas AI dan IoT untuk Kesehatan yang Lebih Baik
+            </h1>
+            <p class="intro-subtitle"><span class="text-slider-items">Maksimalkan kesehatan Anda dengan perangkat medis bertenaga AI
+              dan layanan IoT kami, yang memberikan perawatan cermat demi masa
+              depan yang lebih baik.</span><strong class="text-slider"></strong></p>
+            <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!--/ Tentang Kami End /-->
+    <!--/ Beranda End /-->
 
-  <!--/ Product Star /-->
-  <section  id="produk" class="paralax-mf footer-paralax bg-image sect-mt4 route">
-  <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="produk-kami">
-          <div class="container3">
-            <div class="_1">
-              <div class="heading3">
-                <div class="produk">
-                  <div class="heading-and-subheading">
-                    <div class="heading4">Produk yang kami Tawarkan</div>
-                  </div>
-                  <div class="supporting-text">
-                    Dengan semangat inovatif dan fokus pada kesehatan yang
-                    holistik, perusahaan kami bertujuan untuk menjadi pemimpin
-                    dalam menyediakan solusi kesehatan berbasis IoT dan AI yang
-                    dapat diandalkan dan terpercaya.
-                  </div>
-                  <div class="frame-1171275060">
-                    <div class="frame-1171275057">
-                      <div class="frame-1171275052">
-                        <div class="blood-vein-scanner">Blood Vein Scanner</div>
-                      </div>
-                      <div class="frame-1171275053">
-                        <div class="e-gcsm-1">E-GCSM 1</div>
-                      </div>
-                    </div>
-                    <div class="frame-1171275058">
-                      <div class="frame-1171275055">
-                        <div class="smart-usg">Smart USG</div>
-                      </div>
-                      <div class="frame-1171275056">
-                        <div class="produk-disposable">Produk Disposable</div>
-                      </div>
-                    </div>
-                    <div class="frame-1171275059">
-                      <div class="frame-1171275054">
-                        <div class="e-gcsm-2">E-GCSM 2</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-produk">
-                <div class="frame-1171274991">
-                  <img class="rectangle-537" src="img/rectangle-5370.png" />
-                </div>
-                <div class="line-77"></div>
-                <div class="frame-1171274989">
-                  <div class="content2">
-                    <div class="text">
-                      <div class="heading5">Blood Vein Scanner</div>
-                      <div class="supporting-text2">
-                        Perangkat yang digunakan untuk mencoba meningkatkan
-                        kemampuan penyedia layanan kesehatan untuk melihat
-                        pembuluh darah vena.
-                      </div>
-                    </div>
-                    <div class="button">
-                      <div class="lihat-selengkapnya">Lihat Produk</div>
-                      <a href="#blood">
-                        <span class="link"></span>
-                      </a>
-                      <svg
-                          class="component-14"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
-                            fill="#FFFBFE"
-                          />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-produk">
-                <div class="frame-1171274991">
-                  <img class="rectangle-537" src="img/rectangle-5371.png" />
-                </div>
-                <div class="line-77"></div>
-                <div class="frame-1171274989">
-                  <div class="content2">
-                    <div class="text">
-                      <div class="heading5">E-GCSM 1</div>
-                      <div class="supporting-text">
-                        E-GCSM (E-Growth Chart Monitoring System) merupakan
-                        upaya akselerasi Strategi Nasional untuk pencegahan
-                        stunting dan kurang gizi. E-GCSM 1 untuk anak usia di
-                        bawah 1 tahun.
-                      </div>
-                    </div>
-                    <div class="button">
-                      <div class="lihat-selengkapnya">Lihat Produk</div>
-                      <a href="blood.html">
-                        <span class="link"></span>
-                      </a>
-                      <svg
-                          class="component-14"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
-                            fill="#FFFBFE"
-                          />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="_2">
-              <div class="card-produk">
-                <div class="frame-1171274991">
-                  <img class="rectangle-5372" src="img/rectangle-5372.png" />
-                </div>
-                <div class="line-77"></div>
-                <div class="frame-1171274989">
-                  <div class="content2">
-                    <div class="text">
-                      <div class="heading5">E-GCSM 2</div>
-                      <div class="supporting-text">
-                        E-GCSM (E-Growth Chart Monitoring System) merupakan
-                        upaya akselerasi Strategi Nasional untuk pencegahan
-                        stunting dan kurang gizi. E-GCSM 2 untuk anak usia di
-                        atas 1 tahun -  tahun.
-                      </div>
-                    </div>
-                    <div class="button">
-                      <div class="lihat-selengkapnya">Lihat Produk</div>
-                      <a href="blood.html">
-                        <span class="link"></span>
-                      </a>
-                      <svg
-                          class="component-14"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
-                            fill="#FFFBFE"
-                          />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-produk">
-                <div class="frame-1171274991">
-                  <img class="rectangle-537" src="img/rectangle-5373.png" />
-                </div>
-                <div class="line-77"></div>
-                <div class="frame-1171274989">
-                  <div class="content2">
-                    <div class="text">
-                      <div class="heading5">Smart USG</div>
-                      <div class="supporting-text2">
-                        Pengembangan deteksi stunting sejak dalam kandungan
-                        menggunakan image processing dan AI.
-                      </div>
-                    </div>
-                    <div class="button">
-                      <div class="lihat-selengkapnya">Lihat Produk</div>
-                      <a href="blood.html">
-                        <span class="link"></span>
-                      </a>
-                      <svg
-                          class="component-14"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
-                            fill="#FFFBFE"
-                          />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-produk">
-                <div class="frame-1171274991">
-                  <img class="rectangle-537" src="img/rectangle-5374.png" />
-                </div>
-                <div class="line-77"></div>
-                <div class="frame-1171274989">
-                  <div class="content2">
-                    <div class="text">
-                      <div class="heading5">Produk Disposable</div>
-                      <div class="supporting-text2">
-                        Produk disposable merujuk pada barang-barang yang
-                        dirancang untuk digunakan sekali pakai atau dalam
-                        periode waktu tertentu yang singkat saja sebelum dibuang
-                        atau didaur ulang.
-                      </div>
-                    </div>
-                    <div class="button">
-                      <div class="lihat-selengkapnya">Lihat Produk</div>
-                      <a href="blood.html">
-                        <span class="link"></span>
-                      </a>
-                      <svg
-                          class="component-14"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
-                            fill="#FFFBFE"
-                          />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <!--/ Tentang Kami Start/-->
+    <section id="tentangkami" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                PT. PENDI HIJAU BERKAH
+              </h3>
+              <p class="subtitle-a">
+                Pendi Hijau Berkah adalah perusahaan yang menyediakan inovasi
+                  dalam industri alat kesehatan berbasis AI (kecerdasan buatan)
+                  dan IoT (Internet of Things). Tujuan kami adalah untuk
+              </p>
+              <div class="line-mf"></div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Product End /-->
-
-  <!--/ Section Jasa Star /-->
-  <section id="jasa" class="portfolio-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Jasa yang Kami Tawarkan
-            </h3>
-            <p class="subtitle-a">
-              
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="content3">
-          <div class="_12">
-            <div class="frame-1171275078">
-              <div class="heading8">
+        <div class="informasi">
+          <div class="frame-1171275188">
+            <div class="card-tentang-kami">
+              <div class="card">
                 <div class="circle-sec">
                   <svg
-                    class="humbleicons-aid"
+                    class="component-13"
                     width="40"
                     height="40"
                     viewBox="0 0 40 40"
@@ -511,284 +150,644 @@
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M13.3332 13.3334H9.99984C9.11578 13.3334 8.26794 13.6845 7.64281 14.3097C7.01769 14.9348 6.6665 15.7826 6.6665 16.6667V30C6.6665 30.8841 7.01769 31.7319 7.64281 32.357C8.26794 32.9822 9.11578 33.3334 9.99984 33.3334H29.9998C30.8839 33.3334 31.7317 32.9822 32.3569 32.357C32.982 31.7319 33.3332 30.8841 33.3332 30V16.6667C33.3332 15.7826 32.982 14.9348 32.3569 14.3097C31.7317 13.6845 30.8839 13.3334 29.9998 13.3334H26.6665M13.3332 13.3334V10C13.3332 9.11597 13.6844 8.26812 14.3095 7.643C14.9346 7.01788 15.7824 6.66669 16.6665 6.66669H23.3332C24.2172 6.66669 25.0651 7.01788 25.6902 7.643C26.3153 8.26812 26.6665 9.11597 26.6665 10V13.3334M13.3332 13.3334H26.6665M19.9998 20V23.3334M19.9998 23.3334V26.6667M19.9998 23.3334H16.6665M19.9998 23.3334H23.3332"
-                      stroke="#FFFBFE"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      d="M31.25 12.5H28.75V9.99999C28.7489 8.98487 28.4388 7.99413 27.8609 7.15951C27.2831 6.32489 26.4649 5.68592 25.5151 5.32755C24.5654 4.96918 23.529 4.9084 22.5439 5.15327C21.5587 5.39815 20.6714 5.93708 20 6.69843C19.3601 5.97315 18.5236 5.44904 17.5918 5.18962C16.66 4.93019 15.673 4.94659 14.7503 5.23683C13.8277 5.52707 13.009 6.07869 12.3936 6.82483C11.7781 7.57097 11.3923 8.47961 11.2828 9.44062C10.5234 8.99446 9.65964 8.75681 8.77889 8.75172C7.89814 8.74663 7.03167 8.97428 6.26717 9.41164C5.50267 9.84899 4.86726 10.4805 4.42524 11.2424C3.98323 12.0042 3.75029 12.8692 3.75 13.75V20C3.75 24.3098 5.46205 28.443 8.50951 31.4905C11.557 34.5379 15.6902 36.25 20 36.25C24.3098 36.25 28.443 34.5379 31.4905 31.4905C34.538 28.443 36.25 24.3098 36.25 20V17.5C36.25 16.1739 35.7232 14.9021 34.7855 13.9645C33.8479 13.0268 32.5761 12.5 31.25 12.5ZM23.75 7.49999C24.413 7.49999 25.0489 7.76339 25.5178 8.23223C25.9866 8.70107 26.25 9.33695 26.25 9.99999V12.5H21.25V9.99999C21.25 9.33695 21.5134 8.70107 21.9822 8.23223C22.4511 7.76339 23.087 7.49999 23.75 7.49999ZM13.75 9.99999C13.75 9.33695 14.0134 8.70107 14.4822 8.23223C14.9511 7.76339 15.587 7.49999 16.25 7.49999C16.913 7.49999 17.5489 7.76339 18.0178 8.23223C18.4866 8.70107 18.75 9.33695 18.75 9.99999V16.25C18.75 16.913 18.4866 17.5489 18.0178 18.0178C17.5489 18.4866 16.913 18.75 16.25 18.75C15.587 18.75 14.9511 18.4866 14.4822 18.0178C14.0134 17.5489 13.75 16.913 13.75 16.25V9.99999ZM6.25 13.75C6.25 13.087 6.51339 12.4511 6.98223 11.9822C7.45107 11.5134 8.08696 11.25 8.75 11.25C9.41304 11.25 10.0489 11.5134 10.5178 11.9822C10.9866 12.4511 11.25 13.087 11.25 13.75V16.25C11.25 16.913 10.9866 17.5489 10.5178 18.0178C10.0489 18.4866 9.41304 18.75 8.75 18.75C8.08696 18.75 7.45107 18.4866 6.98223 18.0178C6.51339 17.5489 6.25 16.913 6.25 16.25V13.75ZM33.75 20C33.7499 23.5959 32.3412 27.0488 29.8257 29.6184C27.3102 32.188 23.8882 33.67 20.293 33.7466C16.6979 33.8233 13.2158 32.4885 10.5931 30.0284C7.97041 27.5683 6.4158 24.1786 6.2625 20.5859C7.26165 21.1606 8.42894 21.3715 9.56602 21.183C10.7031 20.9944 11.7398 20.4179 12.5 19.5516C13.3615 20.5332 14.5736 21.1378 15.8759 21.2357C17.1783 21.3336 18.4671 20.9168 19.4656 20.075C19.9153 20.8202 20.5506 21.4361 21.3094 21.8625C20.5051 22.5651 19.8606 23.4317 19.4191 24.4041C18.9777 25.3765 18.7495 26.4321 18.75 27.5C18.75 27.8315 18.8817 28.1495 19.1161 28.3839C19.3505 28.6183 19.6685 28.75 20 28.75C20.3315 28.75 20.6495 28.6183 20.8839 28.3839C21.1183 28.1495 21.25 27.8315 21.25 27.5C21.25 26.1739 21.7768 24.9021 22.7145 23.9645C23.6521 23.0268 24.9239 22.5 26.25 22.5C26.5815 22.5 26.8995 22.3683 27.1339 22.1339C27.3683 21.8995 27.5 21.5815 27.5 21.25C27.5 20.9185 27.3683 20.6005 27.1339 20.3661C26.8995 20.1317 26.5815 20 26.25 20H23.75C23.087 20 22.4511 19.7366 21.9822 19.2678C21.5134 18.7989 21.25 18.163 21.25 17.5V15H31.25C31.913 15 32.5489 15.2634 33.0178 15.7322C33.4866 16.2011 33.75 16.837 33.75 17.5V20Z"
+                      fill="#FFFBFE"
                     />
                   </svg>
                 </div>
-                <div class="pembuatan-alkes-basis-ai-dan-io-t">
-                  Pembuatan Alkes Basis AI dan IoT
+                <div class="h-3-feature-title-sec">
+                  Memberdayakan Pasien
                 </div>
-              </div>
-              <div class="body">
-                <div
-                  class="kami-menawarkan-layanan-pembuatan-alat-kesehatan-berbasis-io-t-dan-ai-yang-dikerjakan-oleh-tenaga-ahli-berkualifikasi-agar-terjamin-kualitasnya-solusi-kami-mengintegrasikan-ai-dan-io-t-untuk-menciptakan-perangkat-medis-yang-inovatif-terkoneksi-dan-cerdas"
-                >
-                  Kami menawarkan layanan pembuatan alat kesehatan berbasis
-                  IoT dan AI yang dikerjakan oleh tenaga ahli berkualifikasi,
-                  agar terjamin kualitasnya. Solusi kami mengintegrasikan AI
-                  dan IoT untuk menciptakan perangkat medis yang inovatif,
-                  terkoneksi, dan cerdas.
+                <div class="fixed-width-fixed-height-sec"></div>
+                <div class="paragraph-feature-description-sec">
+                  Kami memahami bahwa masa depan perawatan kesehatan
+                  memerlukan solusi yang cerdas dan terhubung secara
+                  digital.
                 </div>
               </div>
             </div>
-            <div class="button">
-              <div class="lihat-selengkapnya">Lihat Selengkapnya</div>
-              <a href="blood.html">
-                <span class="link"></span>
-              </a>
-              <svg
-                  class="component-14"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
-                    fill="#FFFBFE"
-                  />
-              </svg>
-            </div>
-          </div>
-          <div class="_22">
-            <div class="content4">
-              <div class="heading8">
+            <div class="card-tentang-kami">
+              <div class="card">
                 <div class="circle-sec">
                   <svg
-                    class="icon-park-outline-add-computer"
-                    width="41"
+                    class="component-132"
+                    width="40"
                     height="40"
-                    viewBox="0 0 41 40"
+                    viewBox="0 0 40 40"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M21.6663 5H8.33301C7.66997 5 7.03408 5.26339 6.56524 5.73223C6.0964 6.20107 5.83301 6.83696 5.83301 7.5V25.8333C5.83301 26.4964 6.0964 27.1323 6.56524 27.6011C7.03408 28.0699 7.66997 28.3333 8.33301 28.3333H33.333C33.996 28.3333 34.6319 28.0699 35.1008 27.6011C35.5696 27.1323 35.833 26.4964 35.833 25.8333V19.1667M20.833 28.3333V35M25.833 10H35.833M30.833 5V15M12.4997 35H29.1663"
-                      stroke="#FFFBFE"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      d="M20.0002 19.3333L24.1668 23.5C24.4724 23.8055 24.6252 24.1944 24.6252 24.6666C24.6252 25.1388 24.4724 25.5277 24.1668 25.8333C23.8613 26.1388 23.4724 26.2916 23.0002 26.2916C22.5279 26.2916 22.1391 26.1388 21.8335 25.8333L17.1668 21.1666C17.0002 21 16.8752 20.8127 16.7918 20.605C16.7085 20.3972 16.6668 20.1816 16.6668 19.9583V13.3333C16.6668 12.8611 16.8268 12.4655 17.1468 12.1466C17.4668 11.8277 17.8624 11.6677 18.3335 11.6666C18.8057 11.6666 19.2018 11.8266 19.5218 12.1466C19.8418 12.4666 20.0013 12.8622 20.0002 13.3333V19.3333ZM30.0002 9.99996H26.6668C26.1946 9.99996 25.7991 9.84051 25.4802 9.52163C25.1613 9.20274 25.0013 8.80663 25.0002 8.33329C25.0002 7.86107 25.1602 7.46552 25.4802 7.14663C25.8002 6.82774 26.1957 6.66774 26.6668 6.66663H30.0002V3.33329C30.0002 2.86107 30.1602 2.46551 30.4802 2.14663C30.8002 1.82774 31.1957 1.66774 31.6668 1.66663C32.1391 1.66663 32.5352 1.82663 32.8552 2.14663C33.1752 2.46663 33.3346 2.86218 33.3335 3.33329V6.66663H36.6668C37.1391 6.66663 37.5352 6.82663 37.8552 7.14663C38.1752 7.46663 38.3346 7.86218 38.3335 8.33329C38.3335 8.80551 38.1735 9.20163 37.8535 9.52163C37.5335 9.84163 37.1379 10.0011 36.6668 9.99996H33.3335V13.3333C33.3335 13.8055 33.1735 14.2016 32.8535 14.5216C32.5335 14.8416 32.1379 15.0011 31.6668 15C31.1946 15 30.7991 14.84 30.4802 14.52C30.1613 14.2 30.0013 13.8044 30.0002 13.3333V9.99996ZM18.3335 35C16.2502 35 14.2991 34.6111 12.4802 33.8333C10.6613 33.0555 9.07072 31.9861 7.7085 30.625C6.34739 29.2638 5.27794 27.6733 4.50016 25.8533C3.72239 24.0333 3.3335 22.0822 3.3335 20C3.3335 17.9166 3.72239 15.9655 4.50016 14.1466C5.27794 12.3277 6.34739 10.7372 7.7085 9.37496C9.06961 8.01385 10.6602 6.9444 12.4802 6.16663C14.3002 5.38885 16.2513 4.99996 18.3335 4.99996C18.6391 4.99996 18.9241 5.00718 19.1885 5.02163C19.4529 5.03607 19.7374 5.07051 20.0418 5.12496C20.5141 5.12496 20.9102 5.28496 21.2302 5.60496C21.5502 5.92496 21.7096 6.32051 21.7085 6.79163C21.7085 7.26385 21.5485 7.65996 21.2285 7.97996C20.9085 8.29996 20.5129 8.4594 20.0418 8.45829C19.7363 8.45829 19.4513 8.43718 19.1868 8.39496C18.9224 8.35274 18.6379 8.33218 18.3335 8.33329C15.0557 8.33329 12.2918 9.45829 10.0418 11.7083C7.79183 13.9583 6.66683 16.7222 6.66683 20C6.66683 23.2777 7.79183 26.0416 10.0418 28.2916C12.2918 30.5416 15.0557 31.6666 18.3335 31.6666C21.6113 31.6666 24.3752 30.5416 26.6252 28.2916C28.8752 26.0416 30.0002 23.2777 30.0002 20C30.0002 19.5277 30.1602 19.1322 30.4802 18.8133C30.8002 18.4944 31.1957 18.3344 31.6668 18.3333C32.1391 18.3333 32.5352 18.4933 32.8552 18.8133C33.1752 19.1333 33.3346 19.5288 33.3335 20C33.3335 22.0833 32.9446 24.035 32.1668 25.855C31.3891 27.675 30.3196 29.265 28.9585 30.625C27.5974 31.9861 26.0068 33.0555 24.1868 33.8333C22.3668 34.6111 20.4157 35 18.3335 35Z"
+                      fill="#FFFBFE"
                     />
                   </svg>
                 </div>
-                <div class="pembuatan-software-dan-hardware">
-                  Pembuatan Software dan Hardware
-                </div>
-              </div>
-              <div class="body">
-                <div
-                  class="jelajahi-layanan-kami-di-mana-inovasi-teknologi-dapat-menjadi-nyata-kami-ahli-dalam-pembuatan-software-aplikasi-dan-hardware-yang-dirancang-dan-disesuaikan-dengan-kebutuhan-unik-bisnis-anda"
-                >
-                  Jelajahi layanan kami di mana inovasi teknologi dapat
-                  menjadi nyata. Kami ahli dalam pembuatan software aplikasi
-                  dan hardware yang dirancang dan disesuaikan dengan kebutuhan
-                  unik bisnis Anda.
+                <div class="h-3-feature-title-sec">Efisiensi Waktu</div>
+                <div class="fixed-width-fixed-height-sec"></div>
+                <div class="paragraph-feature-description-sec">
+                  Melalui integrasi teknologi AI dan IoT, kami bertujuan
+                  untuk menghadirkan perangkat kesehatan yang dapat cepat
+                  diakses.
                 </div>
               </div>
             </div>
-            <div class="button">
-              <div class="lihat-selengkapnya">Lihat Selengkapnya</div>
-              <a href="blood.html">
-                <span class="link"></span>
-              </a>
-              <svg
-                  class="component-14"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
-                    fill="#FFFBFE"
-                  />
-              </svg>
-            </div>
-          </div>
-          <div class="_3">
-            <div class="content">
-              <div class="hedaing">
+            <div class="card-tentang-kami">
+              <div class="card">
                 <div class="circle-sec">
                   <svg
-                    class="eos-icons-ai-operator"
-                    width="41"
+                    class="component-133"
+                    width="40"
                     height="40"
-                    viewBox="0 0 41 40"
+                    viewBox="0 0 40 40"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <g clip-path="url(#clip0_1_499)">
-                      <path
-                        d="M14.0932 8.33333H11.8498L8.49984 21.6667H10.2132L10.9865 18.5417H14.8465L15.5998 21.6667H17.3698L14.0932 8.33333ZM11.2115 17.2033L12.9065 9.91667H12.9815L14.6215 17.205L11.2115 17.2033ZM18.8965 21.6667V8.33333H20.5632V21.6667H18.8965ZM19.2082 23.3333H6.83317V6.66667H23.4998V14.6333C25.4725 13.3595 27.8585 12.8906 30.1665 13.3233V10H26.8332V6.66667C26.8305 5.78342 26.4785 4.93711 25.8539 4.31256C25.2294 3.68801 24.3831 3.33597 23.4998 3.33333H20.1665V0H16.8332V3.33333H13.4998V0H10.1665V3.33333H6.83317C5.94993 3.33597 5.10361 3.68801 4.47906 4.31256C3.85451 4.93711 3.50248 5.78342 3.49984 6.66667V10H0.166504V13.3333H3.49984V16.6667H0.166504V20H3.49984V23.3333C3.50248 24.2166 3.85451 25.0629 4.47906 25.6874C5.10361 26.312 5.94993 26.664 6.83317 26.6667H10.1665V30H13.4998V26.6667H16.8332V30H20.1665V26.68C19.638 25.6352 19.3128 24.4995 19.2082 23.3333ZM22.6665 22.5C22.6665 21.3463 23.0086 20.2185 23.6496 19.2592C24.2906 18.2999 25.2016 17.5522 26.2675 17.1107C27.3334 16.6692 28.5063 16.5537 29.6379 16.7788C30.7694 17.0038 31.8088 17.5594 32.6246 18.3752C33.4404 19.191 33.996 20.2304 34.2211 21.362C34.4462 22.4935 34.3306 23.6664 33.8891 24.7323C33.4476 25.7982 32.7 26.7093 31.7407 27.3502C30.7814 27.9912 29.6536 28.3333 28.4998 28.3333C27.7337 28.3336 26.9751 28.1828 26.2673 27.8897C25.5594 27.5967 24.9163 27.167 24.3746 26.6253C23.8328 26.0836 23.4032 25.4404 23.1101 24.7326C22.817 24.0247 22.6663 23.2661 22.6665 22.5ZM28.4998 31.6667C24.6065 31.6667 16.8332 33.6217 16.8332 37.5V40H40.1665V37.5C40.1665 33.62 32.3932 31.6667 28.4998 31.6667Z"
-                        fill="#FFFBFE"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_1_499">
-                        <rect
-                          width="40"
-                          height="40"
-                          fill="white"
-                          transform="translate(0.166504)"
-                        />
-                      </clipPath>
-                    </defs>
+                    <path
+                      d="M21.6666 4.99996C28.1666 4.99996 33.3333 10.1666 33.3333 16.6666C33.3333 21.3333 30.6666 25.3333 26.6666 27.1666V35H14.9999V30H13.3333C11.4999 30 9.99994 28.5 9.99994 26.6666V21.6666H7.49994C6.83328 21.6666 6.33328 20.8333 6.83328 20.3333L9.99994 16.1666C10.3333 9.83329 15.3333 4.99996 21.6666 4.99996ZM21.6666 1.66663C13.9999 1.66663 7.66661 7.33329 6.83328 14.8333L4.16661 18.3333C3.16661 19.6666 3.16661 21.3333 3.83328 22.6666C4.49994 23.8333 5.49994 24.6666 6.66661 24.8333V26.6666C6.66661 29.8333 8.83328 32.3333 11.6666 33.1666V38.3333H29.9999V29.1666C34.1666 26.3333 36.6666 21.8333 36.6666 16.6666C36.6666 8.33329 29.9999 1.66663 21.6666 1.66663ZM23.3333 23.3333H19.9999V21.6666H23.3333V23.3333ZM25.9999 15.8333C25.4999 16.5 24.9999 17.1666 24.1666 17.6666V20H19.1666V17.6666C16.8333 16.3333 15.9999 13.1666 17.3333 10.8333C18.6666 8.49996 21.8333 7.66663 24.1666 8.99996C26.4999 10.3333 27.3333 13.5 25.9999 15.8333Z"
+                      fill="#FFFBFE"
+                    />
                   </svg>
                 </div>
-                <div class="pelatihan-ai-dan-io-t">
-                  Pelatihan
-                  <br />
-                  AI dan IoT
-                </div>
-              </div>
-              <div class="body">
-                <div
-                  class="dalami-pengetahuan-anda-mengenai-ai-dan-io-t-dengan-layanan-pelatihan-kami-yang-akan-memandu-anda-untuk-memasuki-lebih-dalam-pada-teknologi-ini-jelajahi-program-pelatihan-yang-kami-tawarkan"
-                >
-                  Dalami pengetahuan Anda mengenai AI dan IoT dengan layanan
-                  pelatihan kami, yang akan memandu Anda untuk memasuki lebih
-                  dalam pada teknologi ini. Jelajahi program pelatihan yang
-                  kami tawarkan.
+                <div class="h-3-feature-title-sec">Pemahaman Mendalam</div>
+                <div class="fixed-width-fixed-height-sec"></div>
+                <div class="paragraph-feature-description-sec">
+                  Kami memahami bahwa masa depan perawatan kesehatan
+                  memerlukan solusi yang cerdas dan terhubung secara
+                  digital.
                 </div>
               </div>
             </div>
-            <div class="button">
-              <div class="lihat-selengkapnya">Lihat Selengkapnya</div>
-              <a href="blood.html">
-                <span class="link"></span>
-              </a>
-              <svg
-                  class="component-14"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
-                    fill="#FFFBFE"
-                  />
-              </svg>
+          </div>
+          <div class="frame-1171275187">
+            <div class="hedading">Partner Kerja</div>
+            <div class="frame-1171275183">
+              <div class="frame-1171275176">
+                <img class="image-4" src="img/image-40.png" />
+              </div>
+              <div class="frame-1171275177">
+                <div class="frame-1171275174">
+                  <img class="image-3" src="img/image-30.png" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <!--/ Tentang Kami End /-->
 
-  <!--/ Section Mengapa Memilih Start /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route">
+    <!--/ Product Star /-->
+    <section  id="produk" class="paralax-mf footer-paralax bg-image sect-mt4 route">
     <div class="overlay-mf"></div>
-    <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="produk-kami">
+            <div class="container3">
+              <div class="_1">
+                <div class="heading3">
+                  <div class="produk">
+                    <div class="heading-and-subheading">
+                      <div class="heading4">Produk yang kami Tawarkan</div>
+                    </div>
+                    <div class="supporting-text">
+                      Dengan semangat inovatif dan fokus pada kesehatan yang
+                      holistik, perusahaan kami bertujuan untuk menjadi pemimpin
+                      dalam menyediakan solusi kesehatan berbasis IoT dan AI yang
+                      dapat diandalkan dan terpercaya.
+                    </div>
+                    <div class="frame-1171275060">
+                      <div class="frame-1171275057">
+                        <div class="frame-1171275052">
+                          <div class="blood-vein-scanner">Blood Vein Scanner</div>
+                        </div>
+                        <div class="frame-1171275053">
+                          <div class="e-gcsm-1">E-GCSM 1</div>
+                        </div>
+                      </div>
+                      <div class="frame-1171275058">
+                        <div class="frame-1171275055">
+                          <div class="smart-usg">Smart USG</div>
+                        </div>
+                        <div class="frame-1171275056">
+                          <div class="produk-disposable">Produk Disposable</div>
+                        </div>
+                      </div>
+                      <div class="frame-1171275059">
+                        <div class="frame-1171275054">
+                          <div class="e-gcsm-2">E-GCSM 2</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-produk">
+                  <div class="frame-1171274991">
+                    <img class="rectangle-537" src="img/rectangle-5370.png" />
+                  </div>
+                  <div class="line-77"></div>
+                  <div class="frame-1171274989">
+                    <div class="content2">
+                      <div class="text">
+                        <div class="heading5">Blood Vein Scanner</div>
+                        <div class="supporting-text2">
+                          Perangkat yang digunakan untuk mencoba meningkatkan
+                          kemampuan penyedia layanan kesehatan untuk melihat
+                          pembuluh darah vena.
+                        </div>
+                      </div>
+                      <div class="button">
+                        <div class="lihat-selengkapnya">Lihat Produk</div>
+                        <a href="blood.html">
+                          <span class="link"></span>
+                        </a>
+                        <svg
+                            class="component-14"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
+                              fill="#FFFBFE"
+                            />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-produk">
+                  <div class="frame-1171274991">
+                    <img class="rectangle-537" src="img/rectangle-5371.png" />
+                  </div>
+                  <div class="line-77"></div>
+                  <div class="frame-1171274989">
+                    <div class="content2">
+                      <div class="text">
+                        <div class="heading5">E-GCSM 1</div>
+                        <div class="supporting-text">
+                          E-GCSM (E-Growth Chart Monitoring System) merupakan
+                          upaya akselerasi Strategi Nasional untuk pencegahan
+                          stunting dan kurang gizi. E-GCSM 1 untuk anak usia di
+                          bawah 1 tahun.
+                        </div>
+                      </div>
+                      <div class="button">
+                        <div class="lihat-selengkapnya">Lihat Produk</div>
+                        <a href="egcms1.html">
+                          <span class="link"></span>
+                        </a>
+                        <svg
+                            class="component-14"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
+                              fill="#FFFBFE"
+                            />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="_2">
+                <div class="card-produk">
+                  <div class="frame-1171274991">
+                    <img class="rectangle-5372" src="img/rectangle-5372.png" />
+                  </div>
+                  <div class="line-77"></div>
+                  <div class="frame-1171274989">
+                    <div class="content2">
+                      <div class="text">
+                        <div class="heading5">E-GCSM 2</div>
+                        <div class="supporting-text">
+                          E-GCSM (E-Growth Chart Monitoring System) merupakan
+                          upaya akselerasi Strategi Nasional untuk pencegahan
+                          stunting dan kurang gizi. E-GCSM 2 untuk anak usia di
+                          atas 1 tahun -  tahun.
+                        </div>
+                      </div>
+                      <div class="button">
+                        <div class="lihat-selengkapnya">Lihat Produk</div>
+                        <a href="egcms2.html">
+                          <span class="link"></span>
+                        </a>
+                        <svg
+                            class="component-14"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
+                              fill="#FFFBFE"
+                            />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-produk">
+                  <div class="frame-1171274991">
+                    <img class="rectangle-537" src="img/rectangle-5373.png" />
+                  </div>
+                  <div class="line-77"></div>
+                  <div class="frame-1171274989">
+                    <div class="content2">
+                      <div class="text">
+                        <div class="heading5">Smart USG</div>
+                        <div class="supporting-text2">
+                          Pengembangan deteksi stunting sejak dalam kandungan
+                          menggunakan image processing dan AI.
+                        </div>
+                      </div>
+                      <div class="button">
+                        <div class="lihat-selengkapnya">Lihat Produk</div>
+                        <a href="smartusg.html">
+                          <span class="link"></span>
+                        </a>
+                        <svg
+                            class="component-14"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
+                              fill="#FFFBFE"
+                            />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-produk">
+                  <div class="frame-1171274991">
+                    <img class="rectangle-537" src="img/rectangle-5374.png" />
+                  </div>
+                  <div class="line-77"></div>
+                  <div class="frame-1171274989">
+                    <div class="content2">
+                      <div class="text">
+                        <div class="heading5">Produk Disposable</div>
+                        <div class="supporting-text2">
+                          Produk disposable merujuk pada barang-barang yang
+                          dirancang untuk digunakan sekali pakai atau dalam
+                          periode waktu tertentu yang singkat saja sebelum dibuang
+                          atau didaur ulang.
+                        </div>
+                      </div>
+                      <div class="button">
+                        <div class="lihat-selengkapnya">Lihat Produk</div>
+                        <a href="disposable.html">
+                          <span class="link"></span>
+                        </a>
+                        <svg
+                            class="component-14"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
+                              fill="#FFFBFE"
+                            />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Product End /-->
+
+    <!--/ Section Jasa Star /-->
+    <section id="jasa" class="portfolio-mf sect-pt4 route">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <div class="hedading2">
-              Mengapa Memilih
-              <br />
-              PT Pendi Hijau Berkah
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Jasa yang Kami Tawarkan
+              </h3>
+              <p class="subtitle-a">
+                
+              </p>
+              <div class="line-mf"></div>
             </div>
           </div>
         </div>
-      <div class="row">
-        <div class="mengapa-memilih-kami">
-          <div class="container4">
-            <div class="component-12">
-              <div class="frame-1171275039">
-                <div class="card-1">
-                  <div class="card-memilih">
-                    <div class="frame-1171275022">
-                      <div class="frame-1171275021">
-                        <div class="inovasi-terkini">Inovasi Terkini</div>
-                        <div class="line-71"></div>
-                      </div>
-                      <div
-                        class="perusahaan-kami-berkomitmen-untuk-menghadirkan-inovasi-terkini-dalam-industri-alat-kesehatan-dengan-memanfaatkan-teknologi-internet-of-things-io-t-dan-kecerdasan-buatan-ai"
-                      >
-                        Perusahaan kami berkomitmen untuk menghadirkan inovasi
-                        terkini dalam industri alat kesehatan dengan
-                        memanfaatkan teknologi Internet of Things (IoT) dan
-                        Kecerdasan Buatan (AI).
-                      </div>
-                    </div>
+        <div class="row">
+          <div class="content3">
+            <div class="_12">
+              <div class="frame-1171275078">
+                <div class="heading8">
+                  <div class="circle-sec">
+                    <svg
+                      class="humbleicons-aid"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.3332 13.3334H9.99984C9.11578 13.3334 8.26794 13.6845 7.64281 14.3097C7.01769 14.9348 6.6665 15.7826 6.6665 16.6667V30C6.6665 30.8841 7.01769 31.7319 7.64281 32.357C8.26794 32.9822 9.11578 33.3334 9.99984 33.3334H29.9998C30.8839 33.3334 31.7317 32.9822 32.3569 32.357C32.982 31.7319 33.3332 30.8841 33.3332 30V16.6667C33.3332 15.7826 32.982 14.9348 32.3569 14.3097C31.7317 13.6845 30.8839 13.3334 29.9998 13.3334H26.6665M13.3332 13.3334V10C13.3332 9.11597 13.6844 8.26812 14.3095 7.643C14.9346 7.01788 15.7824 6.66669 16.6665 6.66669H23.3332C24.2172 6.66669 25.0651 7.01788 25.6902 7.643C26.3153 8.26812 26.6665 9.11597 26.6665 10V13.3334M13.3332 13.3334H26.6665M19.9998 20V23.3334M19.9998 23.3334V26.6667M19.9998 23.3334H16.6665M19.9998 23.3334H23.3332"
+                        stroke="#FFFBFE"
+                        stroke-width="3"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
                   </div>
-                  <div class="card-memilih">
-                    <div class="frame-1171275022">
-                      <div class="frame-1171275021">
-                        <div class="inovasi-terkini">
-                          Pembaruan Perangkat Lunak Secara Terpusat
-                        </div>
-                        <div class="line-71"></div>
-                      </div>
-                      <div
-                        class="perusahaan-kami-berkomitmen-untuk-menghadirkan-inovasi-terkini-dalam-industri-alat-kesehatan-dengan-memanfaatkan-teknologi-internet-of-things-io-t-dan-kecerdasan-buatan-ai"
-                      >
-                        Melalui platform terpusat, kami dapat memberikan
-                        pembaruan perangkat lunak secara otomatis kepada seluruh
-                        perangkat. Hal ini memastikan bahwa teknologi yang
-                        digunakan selalu up-to-date dengan perkembangan terkini.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-memilih">
-                    <div class="frame-1171275022">
-                      <div class="frame-1171275021">
-                        <div class="inovasi-terkini">
-                          Integrasi Mudah dengan Sistem Lain:
-                        </div>
-                        <div class="line-71"></div>
-                      </div>
-                      <div
-                        class="perusahaan-kami-berkomitmen-untuk-menghadirkan-inovasi-terkini-dalam-industri-alat-kesehatan-dengan-memanfaatkan-teknologi-internet-of-things-io-t-dan-kecerdasan-buatan-ai"
-                      >
-                        Produk kami dirancang untuk berintegrasi dengan sistem
-                        kesehatan yang sudah ada. Ini meminimalkan gangguan
-                        selama proses implementasi dan memastikan kelancaran
-                        integrasi dengan infrastruktur eksisting.
-                      </div>
-                    </div>
+                  <div class="pembuatan-alkes-basis-ai-dan-io-t">
+                    Pembuatan Alkes Basis AI dan IoT
                   </div>
                 </div>
-                <div class="_23">
-                  <div class="card-memilih">
-                    <div class="frame-1171275022">
-                      <div class="frame-1171275021">
-                        <div class="inovasi-terkini">
-                          Optimasi Proses Klinik
+                <div class="body">
+                  <div
+                    class="kami-menawarkan-layanan-pembuatan-alat-kesehatan-berbasis-io-t-dan-ai-yang-dikerjakan-oleh-tenaga-ahli-berkualifikasi-agar-terjamin-kualitasnya-solusi-kami-mengintegrasikan-ai-dan-io-t-untuk-menciptakan-perangkat-medis-yang-inovatif-terkoneksi-dan-cerdas"
+                  >
+                    Kami menawarkan layanan pembuatan alat kesehatan berbasis
+                    IoT dan AI yang dikerjakan oleh tenaga ahli berkualifikasi,
+                    agar terjamin kualitasnya. Solusi kami mengintegrasikan AI
+                    dan IoT untuk menciptakan perangkat medis yang inovatif,
+                    terkoneksi, dan cerdas.
+                  </div>
+                </div>
+              </div>
+              <div class="button">
+                <div class="lihat-selengkapnya">Lihat Selengkapnya</div>
+                <a href="blood.html">
+                  <span class="link"></span>
+                </a>
+                <svg
+                    class="component-14"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
+                      fill="#FFFBFE"
+                    />
+                </svg>
+              </div>
+            </div>
+            <div class="_22">
+              <div class="content4">
+                <div class="heading8">
+                  <div class="circle-sec">
+                    <svg
+                      class="icon-park-outline-add-computer"
+                      width="41"
+                      height="40"
+                      viewBox="0 0 41 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M21.6663 5H8.33301C7.66997 5 7.03408 5.26339 6.56524 5.73223C6.0964 6.20107 5.83301 6.83696 5.83301 7.5V25.8333C5.83301 26.4964 6.0964 27.1323 6.56524 27.6011C7.03408 28.0699 7.66997 28.3333 8.33301 28.3333H33.333C33.996 28.3333 34.6319 28.0699 35.1008 27.6011C35.5696 27.1323 35.833 26.4964 35.833 25.8333V19.1667M20.833 28.3333V35M25.833 10H35.833M30.833 5V15M12.4997 35H29.1663"
+                        stroke="#FFFBFE"
+                        stroke-width="3"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="pembuatan-software-dan-hardware">
+                    Pembuatan Software dan Hardware
+                  </div>
+                </div>
+                <div class="body">
+                  <div
+                    class="jelajahi-layanan-kami-di-mana-inovasi-teknologi-dapat-menjadi-nyata-kami-ahli-dalam-pembuatan-software-aplikasi-dan-hardware-yang-dirancang-dan-disesuaikan-dengan-kebutuhan-unik-bisnis-anda"
+                  >
+                    Jelajahi layanan kami di mana inovasi teknologi dapat
+                    menjadi nyata. Kami ahli dalam pembuatan software aplikasi
+                    dan hardware yang dirancang dan disesuaikan dengan kebutuhan
+                    unik bisnis Anda.
+                  </div>
+                </div>
+              </div>
+              <div class="button">
+                <div class="lihat-selengkapnya">Lihat Selengkapnya</div>
+                <a href="blood.html">
+                  <span class="link"></span>
+                </a>
+                <svg
+                    class="component-14"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
+                      fill="#FFFBFE"
+                    />
+                </svg>
+              </div>
+            </div>
+            <div class="_3">
+              <div class="content">
+                <div class="hedaing">
+                  <div class="circle-sec">
+                    <svg
+                      class="eos-icons-ai-operator"
+                      width="41"
+                      height="40"
+                      viewBox="0 0 41 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_1_499)">
+                        <path
+                          d="M14.0932 8.33333H11.8498L8.49984 21.6667H10.2132L10.9865 18.5417H14.8465L15.5998 21.6667H17.3698L14.0932 8.33333ZM11.2115 17.2033L12.9065 9.91667H12.9815L14.6215 17.205L11.2115 17.2033ZM18.8965 21.6667V8.33333H20.5632V21.6667H18.8965ZM19.2082 23.3333H6.83317V6.66667H23.4998V14.6333C25.4725 13.3595 27.8585 12.8906 30.1665 13.3233V10H26.8332V6.66667C26.8305 5.78342 26.4785 4.93711 25.8539 4.31256C25.2294 3.68801 24.3831 3.33597 23.4998 3.33333H20.1665V0H16.8332V3.33333H13.4998V0H10.1665V3.33333H6.83317C5.94993 3.33597 5.10361 3.68801 4.47906 4.31256C3.85451 4.93711 3.50248 5.78342 3.49984 6.66667V10H0.166504V13.3333H3.49984V16.6667H0.166504V20H3.49984V23.3333C3.50248 24.2166 3.85451 25.0629 4.47906 25.6874C5.10361 26.312 5.94993 26.664 6.83317 26.6667H10.1665V30H13.4998V26.6667H16.8332V30H20.1665V26.68C19.638 25.6352 19.3128 24.4995 19.2082 23.3333ZM22.6665 22.5C22.6665 21.3463 23.0086 20.2185 23.6496 19.2592C24.2906 18.2999 25.2016 17.5522 26.2675 17.1107C27.3334 16.6692 28.5063 16.5537 29.6379 16.7788C30.7694 17.0038 31.8088 17.5594 32.6246 18.3752C33.4404 19.191 33.996 20.2304 34.2211 21.362C34.4462 22.4935 34.3306 23.6664 33.8891 24.7323C33.4476 25.7982 32.7 26.7093 31.7407 27.3502C30.7814 27.9912 29.6536 28.3333 28.4998 28.3333C27.7337 28.3336 26.9751 28.1828 26.2673 27.8897C25.5594 27.5967 24.9163 27.167 24.3746 26.6253C23.8328 26.0836 23.4032 25.4404 23.1101 24.7326C22.817 24.0247 22.6663 23.2661 22.6665 22.5ZM28.4998 31.6667C24.6065 31.6667 16.8332 33.6217 16.8332 37.5V40H40.1665V37.5C40.1665 33.62 32.3932 31.6667 28.4998 31.6667Z"
+                          fill="#FFFBFE"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_499">
+                          <rect
+                            width="40"
+                            height="40"
+                            fill="white"
+                            transform="translate(0.166504)"
+                          />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="pelatihan-ai-dan-io-t">
+                    Pelatihan
+                    <br />
+                    AI dan IoT
+                  </div>
+                </div>
+                <div class="body">
+                  <div
+                    class="dalami-pengetahuan-anda-mengenai-ai-dan-io-t-dengan-layanan-pelatihan-kami-yang-akan-memandu-anda-untuk-memasuki-lebih-dalam-pada-teknologi-ini-jelajahi-program-pelatihan-yang-kami-tawarkan"
+                  >
+                    Dalami pengetahuan Anda mengenai AI dan IoT dengan layanan
+                    pelatihan kami, yang akan memandu Anda untuk memasuki lebih
+                    dalam pada teknologi ini. Jelajahi program pelatihan yang
+                    kami tawarkan.
+                  </div>
+                </div>
+              </div>
+              <div class="button">
+                <div class="lihat-selengkapnya">Lihat Selengkapnya</div>
+                <a href="blood.html">
+                  <span class="link"></span>
+                </a>
+                <svg
+                    class="component-14"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.55429 4.4743C7.66623 4.36513 7.79859 4.2791 7.9438 4.22113C8.08901 4.16315 8.24423 4.13438 8.40057 4.13645C8.55691 4.13851 8.71131 4.17138 8.85494 4.23317C8.99857 4.29496 9.12861 4.38446 9.23762 4.49655L15.8976 11.335C16.0067 11.4469 16.0928 11.5792 16.1507 11.7245C16.2087 11.8697 16.2375 12.0249 16.2354 12.1812C16.2334 12.3376 16.2005 12.492 16.1387 12.6356C16.0769 12.7792 15.9874 12.9093 15.8753 13.0183L9.03691 19.6782C8.81074 19.8985 8.50633 20.0199 8.19064 20.0157C8.03433 20.0137 7.87996 19.9808 7.73634 19.9191C7.59271 19.8574 7.46266 19.768 7.35359 19.656C7.24452 19.544 7.15858 19.4116 7.10067 19.2664C7.04276 19.1212 7.01402 18.966 7.01609 18.8097C7.02026 18.494 7.14967 18.1929 7.37584 17.9727L13.3599 12.1432L7.53204 6.15762C7.42287 6.04569 7.33684 5.91333 7.27887 5.76812C7.2209 5.62291 7.19212 5.46769 7.19419 5.31135C7.19625 5.155 7.22912 5.0006 7.29091 4.85697C7.3527 4.71334 7.4422 4.58331 7.55429 4.4743Z"
+                      fill="#FFFBFE"
+                    />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--/ Section Mengapa Memilih Start /-->
+    <section class="paralax-mf footer-paralax bg-image sect-mt4 route">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="hedading2">
+                Mengapa Memilih
+                <br />
+                PT Pendi Hijau Berkah
+              </div>
+            </div>
+          </div>
+        <div class="row">
+          <div class="mengapa-memilih-kami">
+            <div class="container4">
+              <div class="component-12">
+                <div class="frame-1171275039">
+                  <div class="card-1">
+                    <div class="card-memilih">
+                      <div class="frame-1171275022">
+                        <div class="frame-1171275021">
+                          <div class="inovasi-terkini">Inovasi Terkini</div>
+                          <div class="line-71"></div>
                         </div>
-                        <div class="line-71"></div>
+                        <div
+                          class="perusahaan-kami-berkomitmen-untuk-menghadirkan-inovasi-terkini-dalam-industri-alat-kesehatan-dengan-memanfaatkan-teknologi-internet-of-things-io-t-dan-kecerdasan-buatan-ai"
+                        >
+                          Perusahaan kami berkomitmen untuk menghadirkan inovasi
+                          terkini dalam industri alat kesehatan dengan
+                          memanfaatkan teknologi Internet of Things (IoT) dan
+                          Kecerdasan Buatan (AI).
+                        </div>
                       </div>
-                      <div
-                        class="perusahaan-kami-berkomitmen-untuk-menghadirkan-inovasi-terkini-dalam-industri-alat-kesehatan-dengan-memanfaatkan-teknologi-internet-of-things-io-t-dan-kecerdasan-buatan-ai"
-                      >
-                        Solusi IoT dan AI kami dirancang untuk mengoptimalkan
-                        proses klinik, termasuk penjadwalan, pengelolaan
-                        inventaris, dan pengumpulan data. Ini membantu
-                        meningkatkan efisiensi operasional rumah sakit dan
-                        fasilitas kesehatan.
+                    </div>
+                    <div class="card-memilih">
+                      <div class="frame-1171275022">
+                        <div class="frame-1171275021">
+                          <div class="inovasi-terkini">
+                            Pembaruan Perangkat Lunak Secara Terpusat
+                          </div>
+                          <div class="line-71"></div>
+                        </div>
+                        <div
+                          class="perusahaan-kami-berkomitmen-untuk-menghadirkan-inovasi-terkini-dalam-industri-alat-kesehatan-dengan-memanfaatkan-teknologi-internet-of-things-io-t-dan-kecerdasan-buatan-ai"
+                        >
+                          Melalui platform terpusat, kami dapat memberikan
+                          pembaruan perangkat lunak secara otomatis kepada seluruh
+                          perangkat. Hal ini memastikan bahwa teknologi yang
+                          digunakan selalu up-to-date dengan perkembangan terkini.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-memilih">
+                      <div class="frame-1171275022">
+                        <div class="frame-1171275021">
+                          <div class="inovasi-terkini">
+                            Integrasi Mudah dengan Sistem Lain:
+                          </div>
+                          <div class="line-71"></div>
+                        </div>
+                        <div
+                          class="perusahaan-kami-berkomitmen-untuk-menghadirkan-inovasi-terkini-dalam-industri-alat-kesehatan-dengan-memanfaatkan-teknologi-internet-of-things-io-t-dan-kecerdasan-buatan-ai"
+                        >
+                          Produk kami dirancang untuk berintegrasi dengan sistem
+                          kesehatan yang sudah ada. Ini meminimalkan gangguan
+                          selama proses implementasi dan memastikan kelancaran
+                          integrasi dengan infrastruktur eksisting.
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class="card-memilih">
-                    <div class="frame-1171275022">
-                      <div class="frame-1171275021">
-                        <div class="inovasi-terkini">Berfokus pada Pasien</div>
-                        <div class="line-71"></div>
+                  <div class="_23">
+                    <div class="card-memilih">
+                      <div class="frame-1171275022">
+                        <div class="frame-1171275021">
+                          <div class="inovasi-terkini">
+                            Optimasi Proses Klinik
+                          </div>
+                          <div class="line-71"></div>
+                        </div>
+                        <div
+                          class="perusahaan-kami-berkomitmen-untuk-menghadirkan-inovasi-terkini-dalam-industri-alat-kesehatan-dengan-memanfaatkan-teknologi-internet-of-things-io-t-dan-kecerdasan-buatan-ai"
+                        >
+                          Solusi IoT dan AI kami dirancang untuk mengoptimalkan
+                          proses klinik, termasuk penjadwalan, pengelolaan
+                          inventaris, dan pengumpulan data. Ini membantu
+                          meningkatkan efisiensi operasional rumah sakit dan
+                          fasilitas kesehatan.
+                        </div>
                       </div>
-                      <div
-                        class="perusahaan-kami-berkomitmen-untuk-menghadirkan-inovasi-terkini-dalam-industri-alat-kesehatan-dengan-memanfaatkan-teknologi-internet-of-things-io-t-dan-kecerdasan-buatan-ai"
-                      >
-                        Teknologi kami dirancang untuk memberikan layanan
-                        kesehatan yang personal, terjangkau, dan efisien. Dengan
-                        semangat inovatif dan fokus pada kesehatan yang
-                        holistik.
+                    </div>
+                    <div class="card-memilih">
+                      <div class="frame-1171275022">
+                        <div class="frame-1171275021">
+                          <div class="inovasi-terkini">Berfokus pada Pasien</div>
+                          <div class="line-71"></div>
+                        </div>
+                        <div
+                          class="perusahaan-kami-berkomitmen-untuk-menghadirkan-inovasi-terkini-dalam-industri-alat-kesehatan-dengan-memanfaatkan-teknologi-internet-of-things-io-t-dan-kecerdasan-buatan-ai"
+                        >
+                          Teknologi kami dirancang untuk memberikan layanan
+                          kesehatan yang personal, terjangkau, dan efisien. Dengan
+                          semangat inovatif dan fokus pada kesehatan yang
+                          holistik.
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -798,131 +797,130 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/banner0.png)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="footer">
-          <div class="container5">
-            <div class="content5">
-              <img class="logo" src="img/logo0.png" />
-              <div class="hubungi-kami2">
-                <div class="heading5">Hubungi Kami</div>
-                <div class="information">
-                  <div class="whatsapp">
-                    <div class="frame-1171275077">
-                      <svg
-                        class="ic-baseline-whatsapp"
-                        width="24"
-                        height="25"
-                        viewBox="0 0 24 25"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M18.3449 6.26699C17.5198 5.43353 16.5369 4.7727 15.4538 4.32305C14.3706 3.87339 13.2087 3.64392 12.0359 3.648C7.12191 3.648 3.11692 7.65299 3.11692 12.567C3.11692 14.142 3.53092 15.672 4.30492 17.022L3.04492 21.6479L7.76991 20.406C9.0749 21.117 10.5419 21.4949 12.0359 21.4949C16.9499 21.4949 20.9549 17.49 20.9549 12.576C20.9549 10.191 20.0279 7.94999 18.3449 6.26699ZM12.0359 19.983C10.7039 19.983 9.3989 19.623 8.25591 18.948L7.98591 18.786L5.17792 19.524L5.92491 16.788L5.74491 16.509C5.00489 15.3272 4.61194 13.9613 4.61092 12.567C4.61092 8.48099 7.94091 5.151 12.0269 5.151C14.0069 5.151 15.8699 5.925 17.2649 7.32899C17.9556 8.01656 18.503 8.83438 18.8753 9.73507C19.2477 10.6358 19.4375 11.6014 19.4339 12.576C19.4519 16.662 16.1219 19.983 12.0359 19.983ZM16.1039 14.439C15.8789 14.331 14.7809 13.791 14.5829 13.71C14.3759 13.638 14.2319 13.602 14.0789 13.818C13.9259 14.043 13.5029 14.547 13.3769 14.691C13.2509 14.844 13.1159 14.862 12.8909 14.745C12.6659 14.637 11.9459 14.394 11.0999 13.638C10.4339 13.044 9.9929 12.315 9.8579 12.09C9.7319 11.865 9.8399 11.748 9.9569 11.631C10.0559 11.532 10.1819 11.37 10.2899 11.244C10.3979 11.118 10.4429 11.019 10.5149 10.875C10.5869 10.722 10.5509 10.596 10.4969 10.488C10.4429 10.38 9.9929 9.28199 9.8129 8.83199C9.6329 8.39999 9.4439 8.45399 9.3089 8.44499H8.8769C8.7239 8.44499 8.48991 8.49899 8.28291 8.72399C8.08491 8.94899 7.50891 9.48899 7.50891 10.587C7.50891 11.685 8.30991 12.747 8.41791 12.891C8.52591 13.044 9.9929 15.294 12.2249 16.257C12.7559 16.491 13.1699 16.626 13.4939 16.725C14.0249 16.896 14.5109 16.869 14.8979 16.815C15.3299 16.752 16.2209 16.275 16.4009 15.753C16.5899 15.231 16.5899 14.79 16.5269 14.691C16.4639 14.592 16.3289 14.547 16.1039 14.439Z"
-                          fill="#464646"
-                        />
-                      </svg>
-                      <div class="h-6">089507350309</div>
-                    </div>
-                  </div>
-                  <div class="lokasi">
-                    <div class="frame-11712750772">
-                      <svg
-                        class="fa-6-solid-location-dot"
-                        width="24"
-                        height="49"
-                        viewBox="0 0 24 49"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M12.4012 33.721C14.3099 31.3324 18.6629 25.5432 18.6629 22.2914C18.6629 18.3476 15.4633 15.1479 11.5195 15.1479C7.57566 15.1479 4.37598 18.3476 4.37598 22.2914C4.37598 25.5432 8.72904 31.3324 10.6377 33.721C11.0953 34.2903 11.9436 34.2903 12.4012 33.721ZM11.5195 19.9103C12.151 19.9103 12.7566 20.1611 13.2032 20.6077C13.6498 21.0543 13.9006 21.6599 13.9006 22.2914C13.9006 22.923 13.6498 23.5286 13.2032 23.9752C12.7566 24.4217 12.151 24.6726 11.5195 24.6726C10.8879 24.6726 10.2823 24.4217 9.83573 23.9752C9.38917 23.5286 9.1383 22.923 9.1383 22.2914C9.1383 21.6599 9.38917 21.0543 9.83573 20.6077C10.2823 20.1611 10.8879 19.9103 11.5195 19.9103Z"
-                          fill="#464646"
-                        />
-                      </svg>
-                      <div class="h-6">
-                        Jl. Niaga Timur 1, Block WW5.C12,
-                        <br />
-                        Jababeka Phase 2
-                      </div>
-                    </div>
-                  </div>
-                  <div class="e-mail">
-                    <div class="frame-1171275077">
-                      <div class="tabler-mail">
+    <!--/ Section Contact-Footer Star /-->
+    <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/banner0.png)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="footer">
+            <div class="container5">
+              <div class="content5">
+                <img class="logo" src="img/logo0.png" />
+                <div class="hubungi-kami2">
+                  <div class="heading5">Hubungi Kami</div>
+                  <div class="information">
+                    <div class="whatsapp">
+                      <div class="frame-1171275077">
                         <svg
-                          class="group"
-                          width="16"
-                          height="13"
-                          viewBox="0 0 16 13"
+                          class="ic-baseline-whatsapp"
+                          width="24"
+                          height="25"
+                          viewBox="0 0 24 25"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M-0.000488281 2.20405C-0.000488281 1.73255 0.186813 1.28037 0.520211 0.946968C0.853609 0.61357 1.30579 0.42627 1.77729 0.42627H14.2217C14.6932 0.42627 15.1454 0.61357 15.4788 0.946968C15.8122 1.28037 15.9995 1.73255 15.9995 2.20405V11.0929C15.9995 11.5644 15.8122 12.0166 15.4788 12.35C15.1454 12.6834 14.6932 12.8707 14.2217 12.8707H1.77729C1.30579 12.8707 0.853609 12.6834 0.520211 12.35C0.186813 12.0166 -0.000488281 11.5644 -0.000488281 11.0929V2.20405Z"
-                            stroke="#464646"
-                            stroke-width="1.77778"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                          <path
-                            d="M-0.000488281 2.20386L7.99951 7.53719L15.9995 2.20386"
-                            stroke="#464646"
-                            stroke-width="1.77778"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            d="M18.3449 6.26699C17.5198 5.43353 16.5369 4.7727 15.4538 4.32305C14.3706 3.87339 13.2087 3.64392 12.0359 3.648C7.12191 3.648 3.11692 7.65299 3.11692 12.567C3.11692 14.142 3.53092 15.672 4.30492 17.022L3.04492 21.6479L7.76991 20.406C9.0749 21.117 10.5419 21.4949 12.0359 21.4949C16.9499 21.4949 20.9549 17.49 20.9549 12.576C20.9549 10.191 20.0279 7.94999 18.3449 6.26699ZM12.0359 19.983C10.7039 19.983 9.3989 19.623 8.25591 18.948L7.98591 18.786L5.17792 19.524L5.92491 16.788L5.74491 16.509C5.00489 15.3272 4.61194 13.9613 4.61092 12.567C4.61092 8.48099 7.94091 5.151 12.0269 5.151C14.0069 5.151 15.8699 5.925 17.2649 7.32899C17.9556 8.01656 18.503 8.83438 18.8753 9.73507C19.2477 10.6358 19.4375 11.6014 19.4339 12.576C19.4519 16.662 16.1219 19.983 12.0359 19.983ZM16.1039 14.439C15.8789 14.331 14.7809 13.791 14.5829 13.71C14.3759 13.638 14.2319 13.602 14.0789 13.818C13.9259 14.043 13.5029 14.547 13.3769 14.691C13.2509 14.844 13.1159 14.862 12.8909 14.745C12.6659 14.637 11.9459 14.394 11.0999 13.638C10.4339 13.044 9.9929 12.315 9.8579 12.09C9.7319 11.865 9.8399 11.748 9.9569 11.631C10.0559 11.532 10.1819 11.37 10.2899 11.244C10.3979 11.118 10.4429 11.019 10.5149 10.875C10.5869 10.722 10.5509 10.596 10.4969 10.488C10.4429 10.38 9.9929 9.28199 9.8129 8.83199C9.6329 8.39999 9.4439 8.45399 9.3089 8.44499H8.8769C8.7239 8.44499 8.48991 8.49899 8.28291 8.72399C8.08491 8.94899 7.50891 9.48899 7.50891 10.587C7.50891 11.685 8.30991 12.747 8.41791 12.891C8.52591 13.044 9.9929 15.294 12.2249 16.257C12.7559 16.491 13.1699 16.626 13.4939 16.725C14.0249 16.896 14.5109 16.869 14.8979 16.815C15.3299 16.752 16.2209 16.275 16.4009 15.753C16.5899 15.231 16.5899 14.79 16.5269 14.691C16.4639 14.592 16.3289 14.547 16.1039 14.439Z"
+                            fill="#464646"
                           />
                         </svg>
+                        <div class="h-6">089507350309</div>
                       </div>
-                      <div class="h-6">Pendihijauberkahgroup@gmail.com</div>
+                    </div>
+                    <div class="lokasi">
+                      <div class="frame-11712750772">
+                        <svg
+                          class="fa-6-solid-location-dot"
+                          width="24"
+                          height="49"
+                          viewBox="0 0 24 49"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12.4012 33.721C14.3099 31.3324 18.6629 25.5432 18.6629 22.2914C18.6629 18.3476 15.4633 15.1479 11.5195 15.1479C7.57566 15.1479 4.37598 18.3476 4.37598 22.2914C4.37598 25.5432 8.72904 31.3324 10.6377 33.721C11.0953 34.2903 11.9436 34.2903 12.4012 33.721ZM11.5195 19.9103C12.151 19.9103 12.7566 20.1611 13.2032 20.6077C13.6498 21.0543 13.9006 21.6599 13.9006 22.2914C13.9006 22.923 13.6498 23.5286 13.2032 23.9752C12.7566 24.4217 12.151 24.6726 11.5195 24.6726C10.8879 24.6726 10.2823 24.4217 9.83573 23.9752C9.38917 23.5286 9.1383 22.923 9.1383 22.2914C9.1383 21.6599 9.38917 21.0543 9.83573 20.6077C10.2823 20.1611 10.8879 19.9103 11.5195 19.9103Z"
+                            fill="#464646"
+                          />
+                        </svg>
+                        <div class="h-6">
+                          Jl. Niaga Timur 1, Block WW5.C12,
+                          <br />
+                          Jababeka Phase 2
+                        </div>
+                      </div>
+                    </div>
+                    <div class="e-mail">
+                      <div class="frame-1171275077">
+                        <div class="tabler-mail">
+                          <svg
+                            class="group"
+                            width="16"
+                            height="13"
+                            viewBox="0 0 16 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M-0.000488281 2.20405C-0.000488281 1.73255 0.186813 1.28037 0.520211 0.946968C0.853609 0.61357 1.30579 0.42627 1.77729 0.42627H14.2217C14.6932 0.42627 15.1454 0.61357 15.4788 0.946968C15.8122 1.28037 15.9995 1.73255 15.9995 2.20405V11.0929C15.9995 11.5644 15.8122 12.0166 15.4788 12.35C15.1454 12.6834 14.6932 12.8707 14.2217 12.8707H1.77729C1.30579 12.8707 0.853609 12.6834 0.520211 12.35C0.186813 12.0166 -0.000488281 11.5644 -0.000488281 11.0929V2.20405Z"
+                              stroke="#464646"
+                              stroke-width="1.77778"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M-0.000488281 2.20386L7.99951 7.53719L15.9995 2.20386"
+                              stroke="#464646"
+                              stroke-width="1.77778"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </div>
+                        <div class="h-6">Pendihijauberkahgroup@gmail.com</div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="copyright">Copyright © 2024 PT. Pendi Hijau Berkah</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-box">
+              <div class="copyright">Copyright © 2024 PT. Pendi Hijau Berkah</div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-  </section>
-  <!--/ Section Contact-footer End /-->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="copyright-box">
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!--/ Section Contact-footer End /-->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/counterup/jquery.waypoints.min.js"></script>
-  <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="lib/counterup/jquery.counterup.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
 
-</body>
+  </body>
 </html>
