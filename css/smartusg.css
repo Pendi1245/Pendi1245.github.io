@@ -1,0 +1,196 @@
+.smart-usg,
+.smart-usg * {
+  box-sizing: border-box;
+}
+.smart-usg {
+  height: 609px;
+  position: relative;
+}
+.frame-1171275133 {
+  background: #fffbfe;
+  padding: 40px 108px 40px 108px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1218px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-1171275134 {
+  display: flex;
+  flex-direction: row;
+  gap: 770px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.section-title {
+  color: var(--phb-color-black-phb, #191919);
+  text-align: left;
+  font-family: var(--phb-font-h-4-font-family, "IbmPlexSans-Bold", sans-serif);
+  font-size: var(--phb-font-h-4-font-size, 31px);
+  font-weight: var(--phb-font-h-4-font-weight, 700);
+  position: relative;
+}
+.zondicons-close-solid {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.rectangle-528 {
+  border-radius: 16px;
+  flex-shrink: 0;
+  width: 322px;
+  height: 360px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-1171275137 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171275136 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.heading {
+  color: var(--phb-color-black-phb, #191919);
+  text-align: left;
+  font-family: var(--phb-font-h-3-font-family, "IbmPlexSans-Bold", sans-serif);
+  font-size: var(--phb-font-h-3-font-size, 39px);
+  font-weight: var(--phb-font-h-3-font-weight, 700);
+  position: relative;
+}
+.rp-210-000-000 {
+  color: var(--phb-color-black-phb, #191919);
+  text-align: left;
+  font-family: var(--phb-font-h-4-font-family, "IbmPlexSans-Bold", sans-serif);
+  font-size: var(--phb-font-h-4-font-size, 31px);
+  font-weight: var(--phb-font-h-4-font-weight, 700);
+  position: relative;
+}
+.supporting-text {
+  color: var(--phb-color-grey-1-phb, #747474);
+  text-align: left;
+  font-family: var(
+    --phb-font-body-regular-font-family,
+    "Epilogue-Regular",
+    sans-serif
+  );
+  font-size: var(--phb-font-body-regular-font-size, 16px);
+  line-height: var(--phb-font-body-regular-line-height, 148%);
+  font-weight: var(--phb-font-body-regular-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.frame-1171275135 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 660px;
+  position: relative;
+}
+.accordion-detail-produk {
+  border-style: solid;
+  border-color: var(--phb-color-green-phb-green-phb-400, #98e179);
+  border-width: 0px 0px 1px 0px;
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.kegunaan-khusus {
+  color: var(--phb-color-black-phb, #191919);
+  text-align: left;
+  font-family: var(
+    --phb-font-h-6-regular-font-family,
+    "IbmPlexSans-Regular",
+    sans-serif
+  );
+  font-size: var(--phb-font-h-6-regular-font-size, 20px);
+  font-weight: var(--phb-font-h-6-regular-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.uil-arrow-bottom {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.uil-arrow-bottom2 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.uil-arrow-bottom3 {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.button {
+  background: var(--phb-color-green-phb-green-phb-500, #7ed957);
+  border-radius: 8px;
+  padding: 20px 60px 20px 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.lihat-selengkapnya {
+  color: var(--phb-color-white-phb, #fffbfe);
+  text-align: left;
+  font-family: var(--phb-font-body-1-font-family, "Epilogue-Bold", sans-serif);
+  font-size: var(--phb-font-body-1-font-size, 16px);
+  font-weight: var(--phb-font-body-1-font-weight, 700);
+  position: relative;
+}
